@@ -10,8 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@monaco-editor/react": "^4.7.0",
+    "lucide-react": "^0.539.0",
+    "monaco-editor": "^0.52.2",
+    "node-sql-parser": "^5.3.11",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-resizable-panels": "^3.0.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",
