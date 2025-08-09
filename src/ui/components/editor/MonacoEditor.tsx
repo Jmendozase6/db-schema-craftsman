@@ -9,7 +9,8 @@ interface MonacoEditorProps {
   errorLine?: number;
 }
 
-const MonacoEditor: React.FC<MonacoEditorProps> = ({ value, language, onChange, errorLine }) => {
+// value, language, onChange, errorLine
+const MonacoEditor: React.FC<MonacoEditorProps> = ({ value, language, onChange }) => {
   // Mapeamos nuestros dialectos a los lenguajes que Monaco entiende.
   const mapDialectToLanguage = (dialect: string) => {
     const mapping: { [key: string]: string } = {
